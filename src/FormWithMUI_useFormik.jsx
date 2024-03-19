@@ -34,7 +34,7 @@ export const FormWithMUI_useFormik = () => {
     });
 
     return (
-        <form onSubmit={formik.handleSubmit}>
+        <form onSubmit={formik.handleSubmit} style={{ display: "flex", flexDirection: "column", gap: '15px' }}>
             <TextField
                 id="name"
                 name="name"
@@ -56,7 +56,7 @@ export const FormWithMUI_useFormik = () => {
                     formik.setFieldValue('birthdate', value)
                 }}
             />
-            <Button type="submit">Отправить</Button>
+            <Button type="submit" disabled={Boolean(formik.errors.birthdate) || Boolean(formik.errors.name)}>Отправить</Button>
         </form>
 
     )
