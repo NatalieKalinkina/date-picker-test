@@ -1,8 +1,23 @@
-# React + Vite
+# Валидация даты
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Простая форма на React+Mui+Formik с валидацией полей с использованием библиотеки Yup. Поле даты валидируется на минимальный возраст, проверяется корректность формата даты.
 
-Currently, two official plugins are available:
+## Локальный запуск:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Клонировать репозиторий:
+
+```
+git clone https://github.com/NatalieKalinkina/date-picker-test.git
+```
+
+#### Установить зависимости:
+
+```
+npm install
+```
+
+#### Запустить приложение:
+
+```
+vite
+```
